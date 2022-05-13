@@ -11,7 +11,7 @@ write (' give ',i,'element of table 1 ');
 read (tab[i]);
 end_for
 for i form 1 to 5 step 1 do 
-write (' give ',i,'element of table 2 ');
+
 read (vct[i]);
 end_for
 s=0;
