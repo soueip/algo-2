@@ -66,13 +66,13 @@ BEGIN
 for i form 1 to 5 step 1 do 
 write (' give ',i,'element of table 1 ');
 read(a);
-   vct.insert(1,a);
+   tab.insert(1,a);
 end_for
    vct: HASH_TABLE< integer,integer>;
 for i form 1 to 5 step 1 do 
 write (' give ',i,'element of table 2 ');
 read(a);
-   tab.insert(1,a);
+   vct.insert(1,a);
 end_for
 s=0;
 for i form 1 to 5 step 1 do 
